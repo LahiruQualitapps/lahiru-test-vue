@@ -1,7 +1,7 @@
 {
   "name": "lahiru-test-vue",
   "description": "A simple vuejs Lahiru's Plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": {
     "name": "Lahiru Kahawatta",
