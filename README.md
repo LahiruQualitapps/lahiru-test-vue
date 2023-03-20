@@ -1,24 +1,24 @@
-# vue-hello-world-simple
+# lahiru-test-vue
 
 ## Project setup
 ```
-npm install --save vue-hello-world-simple
+npm install --save lahiru-test-vue
 ```
 
 ## Import
 ```
-import HelloWorldSimple from 'vue-simple-hello-world'
+import MapView from 'lahiru-test-vue'
 ```
 
 
 ### Install Globally
 ```
-Vue.use(HelloWorldSimple)
+Vue.use(MapView)
 ```
 
 ### Use Components Locally
 ```
-import HelloWorld from 'vue-simple-hello-world'
+import MapView from 'lahiru-test-vue'
 ```
 
 

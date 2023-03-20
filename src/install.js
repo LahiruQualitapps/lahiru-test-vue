@@ -1,16 +1,14 @@
-import HelloWorld from "./components/MapView.vue";
+import MapView from "./components/MapView.vue";
 
-const HelloWorldSimple = {
+const MapViewSimple = {
  install(Vue) {
-  // Let's register our component globally
-  // https://vuejs.org/v2/guide/components-registration.html
-  Vue.component("map-view", HelloWorld);
+  Vue.component("map-view", MapView);
  }
 };
 
 // Automatic installation if Vue has been added to the global scope.
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(HelloWorldSimple);
+    window.Vue.use(MapViewSimple);
 }
 
-export default HelloWorldSimple;
+export default MapViewSimple;

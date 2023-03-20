@@ -1,5 +1,6 @@
 <template>
     <div class="hello">
+        This is Map View<br/>
         I'm Lahiru Kahawatta
     </div>
 </template>
